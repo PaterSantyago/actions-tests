@@ -17,6 +17,6 @@ jobs:
         node-version: '12.x'
     - run: npm init -y
 
-    - run: npm install @openzeppelin/contracts-ethereum-package --save LykkeCity/openzeppelin-quorum-contracts-ethereum-package.git#20e38b4dd9fe6a5424194e56a7b97eec5583e573
+    - run: npm install @openzeppelin/contracts-ethereum-package --save LykkeBusiness/openzeppelin-contracts-ethereum-package.git#a517ad7e3e12488a4595e4514da8fbd12c693f90
     - run: npm install @openzeppelin/cli --save 2.8.1
     
