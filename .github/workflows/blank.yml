@@ -17,4 +17,6 @@ jobs:
         node-version: '12.x'
     - run: npm init -y
 
+    - run: npm install @openzeppelin/contracts-ethereum-package --save
     - run: npm install @openzeppelin/cli --save
+    
